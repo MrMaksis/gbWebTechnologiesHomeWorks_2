@@ -1,0 +1,51 @@
+ @font-face {
+      font-family: 'Maki Sans Medium';
+      src: url('Fonts/ofont.ru_Maki_Sans.ttf') format('woff');
+}
+body {
+    
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#f3e6e6, #ced1e9);
+    font-family: 'Maki Sans Medium';
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 30px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    padding: 20px;
+    line-height: 1.5;
+    color: #666;
+}
+
+ol, ul {
+    margin: 0 20px;
+    padding: 0 20px;
+    line-height: 1.5;
+    color: #666;
+}
+
+li {
+    padding-left: 10px;
+    list-style-position: outside;
+}
+.center  {
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+}
+.content {
+    padding: 0 40vh 0 40vh;
+}
